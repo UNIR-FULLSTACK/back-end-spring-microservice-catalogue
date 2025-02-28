@@ -7,18 +7,23 @@ spring:
     serialization:
       write-dates-as-timestamps: false
   datasource:
-    url: jdbc:h2:mem:testdb;Mode=MySQL
+    url: jdbc:mysql://yamanote.proxy.rlwy.net:16171/railway
+    username: root
+    password: AYXMTmRmbmeKsJYXCNDzXPWegMpzNNTS
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
   jpa:
     show-sql: true
     hibernate:
       ddl-auto: create-drop
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
     defer-datasource-initialization: true
-  h2:
-    console:
-      enabled: true
-      path: /h2-console
-      settings:
-        web-allow-others: true
+
+  sql:
+    init:
+      mode: always   # Permite inicializar datos en la base de datos
 
 
 
