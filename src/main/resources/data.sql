@@ -1,0 +1,10 @@
+INSERT INTO books (id, titulo, autor, isbn, categoria, valoracion, fechapublica, visible) VALUES (1, 'La Odisea', 'Homero', '9780140268867', 'Epopeya griega', 5, '1614-01-01', true);
+INSERT INTO books (id, titulo, autor, isbn, categoria, valoracion, fechapublica, visible) VALUES (2, 'Cien años de soledad', 'Gabriel García Márquez', '9780307474728', 'Realismo mágico', 5, '1967-05-30', true);
+INSERT INTO books (id, titulo, autor, isbn, categoria, valoracion, fechapublica, visible) VALUES (3, 'El amor en los tiempos del cólera', 'Gabriel García Márquez', '9780307389732', 'Novela romántica', 5, '1985-12-05', true);
+INSERT INTO books (id, titulo, autor, isbn, categoria, valoracion, fechapublica, visible) VALUES (4, 'Rayuela', 'Julio Cortázar', '9788435008106', 'Novela experimental', 4, '1963-06-28', true);
+INSERT INTO books (id, titulo, autor, isbn, categoria, valoracion, fechapublica, visible) VALUES (5, 'Pedro Páramo', 'Juan Rulfo', '9780307474728', 'Realismo mágico', 4, '1955-01-19', false);
+INSERT INTO books (id, titulo, autor, isbn, categoria, valoracion, fechapublica, visible) VALUES (6, 'Los detectives salvajes', 'Roberto Bolaño', '9788433973963', 'Novela contemporánea', 4, '1998-11-01', true);
+INSERT INTO books (id, titulo, autor, isbn, categoria, valoracion, fechapublica, visible) VALUES (7, 'Ficciones', 'Jorge Luis Borges', '9780307950925', 'Cuento', 5, '1944-01-01', false);
+INSERT INTO books (id, titulo, autor, isbn, categoria, valoracion, fechapublica, visible) VALUES (8, 'La ciudad y los perros', 'Mario Vargas Llosa', '9788439729519', 'Novela social', 4, '1963-10-01', true);
+INSERT INTO books (id, titulo, autor, isbn, categoria, valoracion, fechapublica, visible) VALUES (9, 'Santa Evita', 'Tomás Eloy Martínez', '9780679768201', 'Novela histórica', 4, '1995-06-07', false);
+INSERT INTO books (id, titulo, autor, isbn, categoria, valoracion, fechapublica, visible) VALUES (10, 'Don Segundo Sombra', 'Ricardo Güiraldes', '9789875667621', 'Novela gauchesca', 4, '1926-01-01', true);
