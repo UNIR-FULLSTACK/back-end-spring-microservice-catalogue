@@ -1,5 +1,6 @@
 package com.unir.catalogue.controller;
 
+import org.springframework.web.bind.annotation.CrossOrigin;
 import com.unir.catalogue.controller.model.CreateBookRequest;
 import com.unir.catalogue.controller.model.BookDto;
 import com.unir.catalogue.data.model.Book;
@@ -21,7 +22,7 @@ import java.time.LocalDate;
 import java.util.Collections;
 import java.util.List;
 import java.util.Map;
-
+@CrossOrigin(origins = "http://localhost:3000")
 @RestController
 @RequiredArgsConstructor
 @Slf4j
